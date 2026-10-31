@@ -47,8 +47,6 @@ O mapa **não mostra a localização exata** de um animal: os bairros cadastrado
 - **Localização:** utiliza uma relação de bairros e pontos de referência definida em `utils/localizacao.py`, com fonte indicada no próprio arquivo.
 - **Cadastros demonstrativos:** o código contém uma rotina de dados iniciais de exemplo, quando o banco ainda não tem animais.
 
-**Atenção:** dados demonstrativos e pontos aproximados não são estatísticas públicas oficiais. Os registros do banco incluído devem ser revisados quanto a dados pessoais, autorização para publicação e procedência antes de colocar o repositório em modo público.
-
 ## Tecnologias utilizadas
 
 | Tecnologia | Função |
@@ -130,18 +128,9 @@ O desafio apresentado solicitava uma ferramenta de dados ou visualização focad
 
 O Salva Pet responde à proposta com um aplicativo interativo, mapa, cadastros, indicadores, gráficos e fluxo de localização/adoção. O código e este README compõem parte do material de entrega; **o pitch e a submissão no formulário são itens separados** e não são gerados automaticamente pelo projeto.
 
-## Execução em hospedagem pública
-
-O aplicativo usa **Streamlit** e grava em **SQLite e arquivos locais**. É preciso um serviço de hospedagem compatível com processo Python e armazenamento persistente. Plataformas com disco efêmero podem perder novos registros e imagens após reinício ou implantação. Para uso público contínuo, recomenda-se banco gerenciado, armazenamento de objetos, backup e controle de acesso.
-
-## Segurança e limitações
-
-- Não publique um banco real com CPF, CNPJ, e-mails, telefones, endereços ou hashes de senha sem avaliação de privacidade e autorização adequada.
-- A autenticação e a verificação de organizações ainda precisam de reforços para produção.
-- A correspondência de animais é uma ajuda à triagem, não uma comprovação de propriedade.
-- O sistema não substitui atendimento veterinário, autoridades ou canais oficiais de resgate.
-- Fotos e contatos somente devem ser compartilhados com permissão e finalidade apropriada.
-
 ## Equipe
 
-Projeto **Salva Pet** — preencher os nomes dos integrantes e seus papéis antes da submissão.
+- Cauã Ribeiro
+- Izabelle Marrie Amaral Santos
+- Pedro Caua trindade nascimento
+- Caio Vitor Lizardo Avelar Agustini
